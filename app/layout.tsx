@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "MatheusBomtempo.com",
+    template: "%s | MatheusBomtempo.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Portifolio de Matheus Bomtempo.",
   openGraph: {
-    title: "chronark.com",
+    title: "MatheusBomtempo.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Portifolio de Matheus Bomtempo",
     url: "https://chronark.com",
-    siteName: "chronark.com",
+    siteName: "MatheusBomtempo.com",
     images: [
       {
         url: "https://chronark.com/og.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "MatheusBomtempo",
     card: "summary_large_image",
   },
   icons: {
