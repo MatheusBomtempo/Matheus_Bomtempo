@@ -121,6 +121,38 @@ export default async function ProjectsPage() {
             </Link>
           </Card>
 
+
+          <Card>
+            <Link href="https://espacoativamente.com">
+              <article className="relative w-full h-full p-4 md:p-8">
+                <div className="flex items-center justify-center ">
+                  <div className="text-xs text-zinc-100">
+                    
+                  <Image
+                    src="/images/devenceCap.jpg"
+                    alt="Screenshot do ATV"
+                    className="mb-4 rounded-md aspect-[16/10] w-full"
+                    width={500} // Largura da imagem
+                    height={300} // Altura da imagem
+                  />
+                      {/* <span>SOON</span> */}
+
+                  </div>
+                </div>
+
+                <h2
+                  id="featured-post"
+                  className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
+                >
+                  Devence
+                </h2>
+                <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                  Ver mais
+                </p>
+              </article>
+            </Link>
+          </Card>
+
           <Card>
             <Link href="https://espacoativamente.com">
               <article className="relative w-full h-full p-4 md:p-8">
@@ -151,6 +183,8 @@ export default async function ProjectsPage() {
               </article>
             </Link>
           </Card>
+
+          
           
 
           <div className="flex flex-col w-full gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
