@@ -14,16 +14,16 @@ export const metadata: Metadata = {
     title: "MatheusBomtempo.com",
     description:
       "Portifolio de Matheus Bomtempo",
-    url: "https://chronark.com",
+    url: "https://matheus-bomtempo.vercel.app",
     siteName: "MatheusBomtempo.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://matheus-bomtempo.vercel.app/mfbomt.jpg",
         width: 1920,
         height: 1080,
       },
     ],
-    locale: "en-US",
+    locale: "pt-BR",
     type: "website",
   },
   robots: {
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/faviconm.ico",
   },
 };
 const inter = Inter({
